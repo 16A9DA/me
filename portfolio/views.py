@@ -50,6 +50,14 @@ def index(request):
             {'name': 'FastAPI', 'icon': '⚡'},
             {'name': 'Pandas', 'icon': '🐼'},
             {'name': 'Git', 'icon': '🔀'},
+            {"name":'Matplotlib','icon':"📊"},
+            {"name":"Numpy","icon":"🔢"},
+            {"name":"Streamlit","icon":"🧑‍💻"},
+            {"name":"SQL/SQLite","icon":"⛁"},
+            {"name":"MATLAB","icon":"🔢"}
+            
+
+             
         ],
     }
     return render(request, 'portfolio/index.html', context)
