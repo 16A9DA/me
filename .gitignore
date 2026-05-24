@@ -1,0 +1,11 @@
+.env
+.env.*
+*.log
+.DS_Store
+local_settings.py
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+staticfiles/
+collected_static/
