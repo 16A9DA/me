@@ -1,4 +1,4 @@
-# Rayyan Ahmed Portfolio
+# me
 
 Personal portfolio and CV website built to present my background, skills, and projects in a clear and recruiter-friendly way.
 
