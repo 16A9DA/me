@@ -32,9 +32,9 @@ def index(request):
                 'color': 'card-cyan',
             },
             {
-                'name': 'StudyBuddy',
-                'tech': 'Django · DRF · SQLite',
-                'desc': 'Multi-user study platform with room-based threading and role-based auth.',
+                'name': 'StuddyBuddy',
+                'tech': 'Django · SQLite · Docker' ,
+                'desc': 'Multi-user study platform with room-based threading and role-based auth.Containerized with Docker for consistent deployment',
                 'url': 'https://github.com/16A9DA/StuddyBuddy',
                 'color': 'card-yellow',
             },
