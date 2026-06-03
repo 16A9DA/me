@@ -125,7 +125,8 @@
           <span class="tool-badge">🧑‍💻 Streamlit</span>
           <span class="tool-badge">⛁ SQL/SQLite</span>
           <span class="tool-badge">🔢 MATLAB</span>
-          <span class="tool-badge">🐋DOCKER</span>
+          <span class="tool-badge">🐋 DOCKER</span>
+          <span class="tool-badge">💻 PySide6</span>
         </div>
       </section>
 
@@ -167,7 +168,7 @@
         <a class="project-card {{ project.color }}" href="{{ project.url }}" target="_blank" rel="noopener">
           <h3>{{ project.name }}</h3>
           <p class="tech">{{ project.tech }}</p>
-          <p class="desc">{{ project.desc }}</p>
+          <p class="desc">{{ project.desc | linebreaksbr }}</p>
         </a>
         {% endfor %}
       </div>
